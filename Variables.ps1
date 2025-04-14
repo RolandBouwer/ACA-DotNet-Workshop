@@ -5,8 +5,11 @@ Set-Variable -Scope Global -Name APPINSIGHTS_INSTRUMENTATIONKEY -Value "0684b895
 Set-Variable -Scope Global -Name AZURE_CONTAINER_REGISTRY_NAME -Value "crtaskstrackernslkbt"
 Set-Variable -Scope Global -Name AZURE_SUBSCRIPTION_ID -Value "812b712f-fd60-4a36-8fda-df5b5990f9ea"
 Set-Variable -Scope Global -Name BACKEND_API_EXTERNAL_BASE_URL -Value "https://tasksmanager-backend-api.orangesea-d9530af6.westus2.azurecontainerapps.io"
+Set-Variable -Scope Global -Name BACKEND_API_INTERNAL_BASE_URL -Value "https://tasksmanager-backend-api.internal.orangesea-d9530af6.westus2.azurecontainerapps.io"
 Set-Variable -Scope Global -Name BACKEND_API_NAME -Value "tasksmanager-backend-api"
 Set-Variable -Scope Global -Name ENVIRONMENT -Value "cae-tasks-tracker"
+Set-Variable -Scope Global -Name FRONTEND_UI_BASE_URL -Value "https://tasksmanager-frontend-webapp.orangesea-d9530af6.westus2.azurecontainerapps.io"
+Set-Variable -Scope Global -Name FRONTEND_WEBAPP_NAME -Value "tasksmanager-frontend-webapp"
 Set-Variable -Scope Global -Name LOCATION -Value "westus2"
 Set-Variable -Scope Global -Name RANDOM_STRING -Value "nslkbt"
 Set-Variable -Scope Global -Name RESOURCE_GROUP -Value "rg-tasks-tracker-nslkbt"
@@ -16,4 +19,4 @@ Set-Variable -Scope Global -Name WORKSPACE_ID -Value "6aa3f9d0-e936-498c-b4e6-fc
 Set-Variable -Scope Global -Name WORKSPACE_NAME -Value "log-tasks-tracker-nslkbt"
 Set-Variable -Scope Global -Name WORKSPACE_SECRET -Value "5URR2qPkFVQU5UitdVQU0XEVCHLfAlci+YXz9ifqxngJj6gkmmN1bARwoKxC2XkEDdUaHWrf+DYYY4wWtUgVbA=="
 Set-Variable -Scope Global -Name TODAY -Value (Get-Date -Format 'yyyyMMdd')
-Write-Host "Set 17 variables."
+Write-Host "Set 20 variables."
