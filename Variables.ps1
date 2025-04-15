@@ -8,6 +8,12 @@ Set-Variable -Scope Global -Name AZURE_SUBSCRIPTION_ID -Value "812b712f-fd60-4a3
 Set-Variable -Scope Global -Name BACKEND_API_EXTERNAL_BASE_URL -Value "https://tasksmanager-backend-api.orangesea-d9530af6.westus2.azurecontainerapps.io"
 Set-Variable -Scope Global -Name BACKEND_API_INTERNAL_BASE_URL -Value "https://tasksmanager-backend-api.internal.orangesea-d9530af6.westus2.azurecontainerapps.io"
 Set-Variable -Scope Global -Name BACKEND_API_NAME -Value "tasksmanager-backend-api"
+Set-Variable -Scope Global -Name BACKEND_API_PRINCIPAL_ID -Value "6f8c852e-0c78-4923-bb1c-4f6f94314eab"
+Set-Variable -Scope Global -Name COSMOS_DB_ACCOUNT -Value "cosmos-tasks-tracker-state-store-nslkbt"
+Set-Variable -Scope Global -Name COSMOS_DB_CONTAINER -Value "taskscollection"
+Set-Variable -Scope Global -Name COSMOS_DB_DBNAME -Value "tasksmanagerdb"
+Set-Variable -Scope Global -Name COSMOS_DB_ENDPOINT -Value "https://cosmos-tasks-tracker-state-store-nslkbt.documents.azure.com:443/"
+Set-Variable -Scope Global -Name COSMOS_DB_PRIMARY_MASTER_KEY -Value "aioF8IWRXCl4TRtI2B375VF6d1yJQTDLWtyx1yCPWUkxetnacP5xqWsWnXDANaQJ424iqvVeOG7AACDbuxjWMw=="
 Set-Variable -Scope Global -Name ENVIRONMENT -Value "cae-tasks-tracker"
 Set-Variable -Scope Global -Name FRONTEND_UI_BASE_URL -Value "https://tasksmanager-frontend-webapp.orangesea-d9530af6.westus2.azurecontainerapps.io"
 Set-Variable -Scope Global -Name FRONTEND_UI_BASE_URL_LOCAL -Value "https://localhost:7185"
@@ -15,6 +21,7 @@ Set-Variable -Scope Global -Name FRONTEND_WEBAPP_NAME -Value "tasksmanager-front
 Set-Variable -Scope Global -Name LOCATION -Value "westus2"
 Set-Variable -Scope Global -Name RANDOM_STRING -Value "nslkbt"
 Set-Variable -Scope Global -Name RESOURCE_GROUP -Value "rg-tasks-tracker-nslkbt"
+Set-Variable -Scope Global -Name ROLE_ID -Value "00000000-0000-0000-0000-000000000002"
 Set-Variable -Scope Global -Name TARGET_PORT -Value 8080
 Set-Variable -Scope Global -Name UI_APP_PORT -Value 7185
 Set-Variable -Scope Global -Name VNET_NAME -Value "vnet-tasks-tracker"
@@ -22,4 +29,4 @@ Set-Variable -Scope Global -Name WORKSPACE_ID -Value "6aa3f9d0-e936-498c-b4e6-fc
 Set-Variable -Scope Global -Name WORKSPACE_NAME -Value "log-tasks-tracker-nslkbt"
 Set-Variable -Scope Global -Name WORKSPACE_SECRET -Value "5URR2qPkFVQU5UitdVQU0XEVCHLfAlci+YXz9ifqxngJj6gkmmN1bARwoKxC2XkEDdUaHWrf+DYYY4wWtUgVbA=="
 Set-Variable -Scope Global -Name TODAY -Value (Get-Date -Format 'yyyyMMdd')
-Write-Host "Set 23 variables."
+Write-Host "Set 30 variables."
